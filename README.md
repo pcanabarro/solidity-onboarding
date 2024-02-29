@@ -12,7 +12,7 @@ contract MyFirstContract {
   string public myFirstString = "Hello";
 
   function updateString(string memory _updateString) {
-    string memory += 1;
+    myFirstString = _updateString;
   }
 }
 ```
