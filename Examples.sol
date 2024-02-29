@@ -10,6 +10,7 @@ contract ExampleBoolean {
     }
 }
 
+// Useful link to undestand gas cost https://www.linkedin.com/pulse/solidity-gas-golfing-1-uint8-vs-uint256-sudeep-sagar#:~:text=On%20the%20other%20hand%2C%20uint256,32%20bytes%20of%20storage%20space.
 contract ExampleInt {
     uint256 public myInteger256; // 0 - (2^256)-1
     uint8 public myInteger8; // 0 - (2^8)-1
